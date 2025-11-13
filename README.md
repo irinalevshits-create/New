@@ -1,16 +1,15 @@
-> install.packages("rJava")
+> install.packages("rJava", repos = "https//cran.rutgers.edu")
 Installing package into ‘C:/Users/levshitsi/AppData/Local/R/win-library/4.5’
 (as ‘lib’ is unspecified)
-trying URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/rJava_1.0-11.zip'
 Warning in install.packages :
-  
-cannot open URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/rJava_1.0-11.zip': HTTP status was '403 Forbidden'
-Error in download.file(urls, destfiles, "libcurl", mode = "wb", ...) : 
-  cannot open URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/rJava_1.0-11.zip'
+  unable to access index for repository https//cran.rutgers.edu/src/contrib:
+  cannot open URL 'https//cran.rutgers.edu/src/contrib/PACKAGES'
 Warning in install.packages :
-  download of package ‘rJava’ failed
-> library(DBI)
-> library(RJDBC)
-Error in library(RJDBC) : there is no package called ‘RJDBC’
+  package ‘rJava’ is not available for this version of R
 
->
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+Warning in install.packages :
+  unable to access index for repository https//cran.rutgers.edu/bin/windows/contrib/4.5:
+  cannot open URL 'https//cran.rutgers.edu/bin/windows/contrib/4.5/PACKAGES'
